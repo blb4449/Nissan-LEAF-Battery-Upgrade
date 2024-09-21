@@ -11,7 +11,7 @@
 #define MY_BATTERY_40KWH    2
 #define MY_BATTERY_62KWH    3
 
-volatile uint8_t My_Battery = MY_BATTERY_24KWH; //Startup in 24kWh mode, autodetect actual battery type later on
+volatile uint8_t My_Battery = MY_BATTERY_40KWH; //Startup in 40kWh mode, autodetect actual battery type later on
 
 #define MY_LEAF_2011        0       // Nissan Leaf ZE0 2010-2013 (light interior)
 #define MY_LEAF_2014        1       // Nissan Leaf AZE0 2013-2017 (dark interior, old exterior style, 24/30kWh battery)
